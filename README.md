@@ -1,73 +1,43 @@
-# Kaijuan Li · Personal Homepage
+# Hi, welcome to Kaijuan Li's homepage 👋
 
-这是李凯娟的个人学术主页，一个小而完整的线上名片。
+This repository hosts my personal academic homepage.
 
-它用来放置我的研究兴趣、论文与工作论文、田野经历、学术报告、简历摘要，以及中英文两个版本的个人介绍。
+It is a small digital corner for my research, writing, fieldwork, and academic life. If you are here from GitHub, welcome. If you are looking for the actual website, the door is right here:
 
-## 在线访问
+🌐 **Homepage:** https://culaccino-li.github.io/me/  
+中文页面: https://culaccino-li.github.io/me/cn.html
 
-- English: https://culaccino-li.github.io/me/
-- 中文版: https://culaccino-li.github.io/me/cn.html
+## About Me
 
-## 这个主页里有什么
+I am Kaijuan Li / 李凯娟, an incoming PhD student in Political Science at Fudan University.
 
-- 一张正式头像
-- 中英文个人简介
-- 研究方向与关键词
-- Publications / Working Papers
-- Fieldwork & Practice
-- Talks
-- 简历摘要
-- 中英文切换
-- 适合搜索和社交分享的页面信息
+My research interests sit around comparative political economy, technology politics, globalization, computational text analysis, and the evolving role of Chinese central state-owned enterprises in governance.
 
-## 日常怎么更新
+In less formal words: I am interested in how large structural forces such as technology, globalization, firms, and the state quietly reshape political behavior.
 
-大多数时候，只需要改这两个文件：
+## What You Can Find on the Site
 
-```text
-index.html    # 英文页
-cn.html       # 中文页
-```
+✨ Research interests  
+📚 Publications and working papers  
+🧭 Fieldwork and practice experience  
+🎤 Talks and conference presentations  
+📝 A short CV summary  
+🌏 English and Chinese versions  
 
-如果换头像，就替换：
+## Current Address
 
-```text
-assets/portrait.jpg
-```
+The site is published with GitHub Pages:
 
-如果只是改内容，不需要安装任何东西，也不需要跑复杂命令。打开文件，找到对应文字，改掉，再本地预览即可。
+👉 https://culaccino-li.github.io/me/
 
-## 什么时候值得更新
+If the page does not refresh immediately after an update, give GitHub Pages a minute or two. It is usually just taking a small stretch.
 
-有这些变化时，就可以来更新一下：
+## Notes
 
-- 新论文、新工作论文、新会议报告
-- 获奖、项目入选、田野或实践项目结项
-- 研究方向表述变得更清楚了
-- CV 或个人身份信息发生变化
-- Google Scholar、ORCID、GitHub 等链接准备好了
-- 头像想换得更正式一点
+This is a living academic homepage, so the content will change as projects, papers, and research plans move forward.
 
-一个轻松的节奏是：每月看一眼，每学期整理一次，重要节点马上更新。
-
-## 发布到线上
-
-修改完成后，在项目目录运行：
-
-```bash
-git status
-git add index.html cn.html assets README.md UPDATE_GUIDE.md
-git commit -m "Update homepage"
-git push origin main
-```
-
-推送后等一小会儿，GitHub Pages 会自动更新。
-
-## 维护说明
-
-更详细的更新清单、发布流程和频率建议在这里：
+For maintenance notes and update rhythm, see:
 
 [UPDATE_GUIDE.md](UPDATE_GUIDE.md)
 
-这份 README 主要是给自己快速找路用的；真正要认真检查页面时，看更新说明文档就好。
+Thanks for visiting. 🌷
