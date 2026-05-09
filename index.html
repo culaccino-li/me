@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kaijuan Li · 李凯娟 · Fudan University</title>
+<meta name="description" content="Kaijuan Li is an incoming PhD student in Political Science at Fudan University, studying comparative political economy, technology politics, central SOEs, and computational text analysis.">
+<meta name="author" content="Kaijuan Li">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="index.html">
+<link rel="alternate" hreflang="en" href="index.html">
+<link rel="alternate" hreflang="zh-CN" href="cn.html">
+<link rel="alternate" hreflang="x-default" href="index.html">
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+<link rel="apple-touch-icon" href="assets/portrait.jpg">
+<meta property="og:type" content="profile">
+<meta property="og:site_name" content="Kaijuan Li">
+<meta property="og:title" content="Kaijuan Li · Political Science · Fudan University">
+<meta property="og:description" content="Incoming PhD student at Fudan University working on technology politics, comparative political economy, central SOEs, and computational social science.">
+<meta property="og:url" content="index.html">
+<meta property="og:image" content="assets/portrait.jpg">
+<meta property="og:image:alt" content="Portrait of Kaijuan Li">
+<meta property="og:locale" content="en_US">
+<meta property="og:locale:alternate" content="zh_CN">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Kaijuan Li · Political Science · Fudan University">
+<meta name="twitter:description" content="Incoming PhD student at Fudan University working on technology politics, comparative political economy, central SOEs, and computational social science.">
+<meta name="twitter:image" content="assets/portrait.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@300;400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;0,8..60,600;1,8..60,400&family=JetBrains+Mono:wght@400;500;600&family=Noto+Serif+SC:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg:#fff; --bg-soft:#f7f5fa; --ink:#1a1d23; --ink-2:#2c3038; --body:#3a3f47; --muted:#6b7280;
+    --line:#e5e7eb;
+    --purple:#5b2c83; --purple-3:#3f1d5c; --purple-soft:#f5f0f9; --purple-line:#e7d9f0; --purple-ink:#2d1545;
+    --sans:"Source Sans 3","Helvetica Neue",Helvetica,sans-serif;
+    --serif:"Source Serif 4",Georgia,serif;
+    --mono:"JetBrains Mono",ui-monospace,"SF Mono",Menlo,monospace;
+    --zh:"Noto Serif SC","Songti SC",serif;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;background:var(--bg);color:var(--body);font-family:var(--sans);font-size:16px;line-height:1.65;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+  ::selection{background:var(--purple);color:#fff}
+  a{color:var(--purple);text-decoration:none;border-bottom:1px solid transparent;transition:color .15s,border-color .15s}
+  a:hover{color:var(--purple-3);border-bottom-color:var(--purple-3)}
+
+  .topbar{position:sticky;top:0;z-index:60;background:#fff;border-bottom:1px solid var(--line)}
+  .topbar-inner{max-width:1200px;margin:0 auto;padding:10px 40px;min-height:48px;display:flex;align-items:center;justify-content:flex-end;gap:24px}
+  .topbar-nav{display:flex;gap:22px;align-items:center;font-size:13.5px}
+  .topbar-nav a{color:var(--ink-2);border:none}
+  .topbar-nav a:hover{color:var(--purple)}
+  .lang-switch{display:inline-flex;align-items:center;background:#fff;border:1px solid var(--line);border-radius:999px;padding:4px 12px;font-family:var(--mono);font-size:12px;color:var(--ink-2);font-weight:500;transition:background .15s,border-color .15s,color .15s}
+  .lang-switch:hover{background:var(--purple-soft);color:var(--purple);border-color:var(--purple-line)}
+
+  .layout{max-width:1200px;margin:0 auto;padding:32px 40px 80px;display:grid;grid-template-columns:296px 1fr;gap:56px;align-items:start}
+  aside{position:sticky;top:80px}
+  .portrait{width:100%;aspect-ratio:4/5;border:1px solid var(--purple-line);border-radius:3px;overflow:hidden;background:var(--purple-soft);position:relative;box-shadow:0 8px 24px rgba(91,44,131,.07)}
+  .portrait img{width:100%;height:100%;object-fit:cover;object-position:center 42%;display:block;filter:saturate(.98) contrast(1.03)}
+  .portrait::after{content:"";position:absolute;inset:0;box-shadow:inset 0 0 0 6px rgba(255,255,255,.04);pointer-events:none}
+
+  .rail-name{margin:22px 0 4px;font-weight:600;font-size:26px;line-height:1.1;letter-spacing:-.015em;color:var(--ink)}
+  .rail-name .zh{font-family:var(--zh);font-weight:500;font-size:19px;color:var(--ink-2);margin-left:8px;letter-spacing:.04em;vertical-align:1px}
+  .rail-title{font-size:14px;line-height:1.45;color:var(--ink-2);margin-top:6px;font-weight:500}
+  .rail-title .role{color:var(--purple);font-weight:600}
+  .rail-affiliation{font-size:13.5px;color:var(--muted);margin-top:2px;line-height:1.45}
+  .rail-cta{display:flex;gap:8px;margin:18px 0 22px;flex-wrap:wrap}
+  .btn{display:inline-flex;align-items:center;gap:6px;font-size:13px;font-weight:500;padding:8px 14px;border-radius:3px;border:1px solid transparent;text-decoration:none;cursor:pointer;transition:all .15s}
+  .btn-primary{background:var(--purple);color:#fff;border-color:var(--purple)}
+  .btn-primary:hover{background:var(--purple-3);border-color:var(--purple-3);color:#fff}
+  .btn-ghost{background:#fff;color:var(--purple);border-color:var(--purple-line)}
+  .btn-ghost:hover{background:var(--bg-soft);border-color:var(--purple-line)}
+
+  .rail-block{border-top:1px solid var(--line);padding:16px 0}
+  .rail-block h4{font-family:var(--mono);font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);margin:0 0 10px;font-weight:500}
+  .rail-list{list-style:none;margin:0;padding:0;font-size:13.5px;line-height:1.7}
+  .rail-list li{display:flex;gap:10px;align-items:baseline}
+  .rail-list .k{flex:0 0 64px;color:var(--muted);font-family:var(--mono);font-size:11px;text-transform:uppercase;letter-spacing:.06em}
+  .rail-list .v{color:var(--ink-2);min-width:0;word-break:break-all}
+  .rail-list .v a{color:var(--purple);border-bottom:1px dotted var(--purple-line)}
+  .rail-tags{display:flex;flex-wrap:wrap;gap:6px}
+  .rail-tags .pill{font-size:12px;padding:3px 10px;background:var(--bg-soft);color:var(--ink-2);border:1px solid var(--line);border-radius:999px;line-height:1.5}
+
+  main{min-width:0}
+  .main-name{font-weight:600;font-size:36px;line-height:1.05;margin:0 0 8px;letter-spacing:-.02em;color:var(--ink)}
+  .main-name .zh{font-family:var(--zh);font-weight:500;color:var(--ink-2);margin-left:12px;font-size:.74em;letter-spacing:.04em}
+  .main-tag{font-family:var(--serif);font-size:19px;line-height:1.5;color:var(--ink-2);margin:0 0 4px;font-style:italic;max-width:760px}
+  .main-tag em{color:var(--purple);font-style:italic;font-weight:500}
+  .main-position{display:inline-flex;align-items:center;gap:8px;margin-top:12px;background:#fff;border:1px solid var(--line);color:var(--ink-2);padding:6px 14px;border-radius:999px;font-size:13px;font-weight:500}
+  .main-position .dot{width:6px;height:6px;background:var(--purple);border-radius:50%;display:inline-block}
+
+  .tabs{margin:32px 0 0;border-bottom:1px solid var(--line);display:flex;overflow-x:auto;scrollbar-width:none}
+  .tabs::-webkit-scrollbar{display:none}
+  .tab{background:none;border:none;padding:14px 22px 14px 0;margin-right:28px;font-size:14.5px;font-weight:500;color:var(--muted);cursor:pointer;position:relative;white-space:nowrap;transition:color .15s}
+  .tab:hover{color:var(--ink)}
+  .tab.active{color:var(--ink)}
+  .tab.active::after{content:"";position:absolute;left:0;right:28px;bottom:-1px;height:2px;background:var(--purple);border-radius:2px 2px 0 0}
+  .tab .count{margin-left:6px;font-family:var(--mono);font-size:11px;color:var(--muted);background:var(--bg-soft);padding:1px 7px;border-radius:999px;vertical-align:1px}
+  .tab.active .count{color:var(--purple);background:var(--purple-soft)}
+
+  .panel{display:none;padding:36px 0 0}
+  .panel.active{display:block;animation:fadeIn .25s ease}
+  @keyframes fadeIn{from{opacity:0;transform:translateY(4px)}to{opacity:1;transform:none}}
+  .panel h2{font-weight:600;font-size:22px;line-height:1.25;color:var(--ink);margin:0 0 4px;letter-spacing:-.01em}
+  .panel .lede{font-family:var(--serif);font-size:17px;color:var(--muted);margin:0 0 24px;font-style:italic;max-width:700px}
+  .prose p{margin:0 0 1.1em;max-width:720px;color:var(--body);font-size:16px;line-height:1.75}
+  .prose strong{color:var(--ink);font-weight:600}
+
+  .streams{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:28px}
+  .stream-card{background:#fff;border:1px solid var(--line);border-radius:6px;padding:24px 24px 22px;transition:border-color .15s,box-shadow .15s;position:relative;overflow:hidden}
+  .stream-card::before{content:"";position:absolute;left:0;top:0;bottom:0;width:3px;background:var(--purple);transform:scaleY(0);transform-origin:top;transition:transform .25s}
+  .stream-card:hover{border-color:var(--purple-line);box-shadow:0 4px 16px rgba(91,44,131,.06)}
+  .stream-card:hover::before{transform:scaleY(1)}
+  .stream-card.full{grid-column:1/-1}
+  .stream-num{font-family:var(--mono);font-size:11px;color:var(--purple);letter-spacing:.16em;text-transform:uppercase;margin-bottom:10px;font-weight:600}
+  .stream-card h3{font-weight:600;font-size:18px;margin:0 0 10px;color:var(--ink);line-height:1.35;letter-spacing:-.005em}
+  .stream-card h3 em{color:var(--purple);font-style:normal}
+  .stream-card p{margin:0;font-size:15px;color:var(--body);line-height:1.65}
+  .stream-tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:14px}
+  .stream-tags .tag{font-family:var(--mono);font-size:10.5px;letter-spacing:.06em;text-transform:uppercase;padding:3px 9px;background:var(--bg-soft);color:var(--ink-2);border-radius:3px}
+
+  .pub-controls{display:flex;gap:16px;margin-bottom:8px;align-items:center;flex-wrap:wrap}
+  .filter-group{display:flex;gap:4px;flex-wrap:wrap}
+  .filter{background:#fff;border:1px solid var(--line);color:var(--ink-2);font-size:13px;font-weight:500;padding:5px 12px;border-radius:999px;cursor:pointer;transition:all .15s}
+  .filter:hover{border-color:var(--purple-line);color:var(--purple)}
+  .filter.active{background:var(--ink);color:#fff;border-color:var(--ink)}
+  .pub-count{font-family:var(--mono);font-size:12px;color:var(--muted);margin-left:auto}
+
+  .pub{padding:24px 18px;border-top:1px solid var(--line);display:grid;grid-template-columns:56px 1fr auto;gap:24px;align-items:start;border-radius:4px;transition:background .15s}
+  .pub:hover{background:var(--bg-soft)}
+  .pub:first-of-type{border-top:none}
+  .pub-year{font-family:var(--mono);font-size:13px;font-weight:600;color:var(--purple);letter-spacing:.04em;padding-top:4px}
+  .pub-body{min-width:0}
+  .pub-status{display:inline-block;font-family:var(--mono);font-size:10px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;padding:2px 8px;border-radius:3px;background:var(--purple-soft);color:var(--purple-ink);margin-bottom:8px;border:1px solid var(--purple-line)}
+  .pub-status.review{background:#fff7e6;color:#92400e;border-color:#fcd9a8}
+  .pub-status.pub{background:#ecfdf5;color:#065f46;border-color:#a7f3d0}
+  .pub-status.award{background:#fef3c7;color:#78350f;border-color:#fde68a}
+  .pub-title{font-family:var(--serif);font-weight:500;font-size:19.5px;line-height:1.35;margin:0;color:var(--ink);letter-spacing:-.005em}
+  .pub-title:hover{color:var(--purple)}
+  .pub-authors{margin:6px 0 0;font-size:14.5px;color:var(--ink-2)}
+  .pub-authors .me{color:var(--purple);font-weight:600}
+  .pub-venue{font-size:13.5px;color:var(--muted);margin-top:4px;font-style:italic}
+  .pub-actions{display:flex;gap:14px;margin-top:10px;flex-wrap:wrap}
+  .pub-actions button,.pub-actions a{background:none;border:none;border-bottom:1px solid var(--line);color:var(--muted);font-size:12.5px;font-weight:500;letter-spacing:.02em;padding:0 0 1px;cursor:pointer;text-transform:uppercase;transition:color .15s,border-color .15s}
+  .pub-actions button:hover,.pub-actions a:hover{color:var(--purple);border-color:var(--purple)}
+  .pub-actions .disabled{opacity:.45;cursor:default}
+  .pub-actions .disabled:hover{color:var(--muted);border-color:var(--line)}
+  .pub-cite{font-family:var(--mono);font-size:11.5px;color:var(--muted);text-align:right;line-height:1.5;padding:6px 0 0 18px;border-left:1px solid var(--line)}
+  .pub-cite .num{font-weight:600;font-size:18px;color:var(--ink);display:block}
+
+  .abstract{margin-top:14px;padding:0 18px;background:#fff;border-left:3px solid var(--purple);font-size:15px;line-height:1.7;color:var(--ink-2);max-height:0;overflow:hidden;opacity:0;border-radius:0 4px 4px 0;transition:max-height .35s ease,opacity .25s ease,padding .25s ease}
+  .abstract.open{max-height:700px;opacity:1;padding-top:16px;padding-bottom:16px}
+  .abstract p{margin:0;max-width:none}
+
+  /* Fieldwork */
+  .field{padding:22px 0;border-top:1px solid var(--line);display:grid;grid-template-columns:130px 1fr auto;gap:24px;align-items:baseline}
+  .field:first-of-type{border-top:none}
+  .field-date{font-family:var(--mono);font-size:12.5px;color:var(--purple);letter-spacing:.04em;font-weight:500}
+  .field-title{font-weight:600;font-size:16.5px;color:var(--ink);margin:0 0 4px;line-height:1.4}
+  .field-meta{font-size:14px;color:var(--muted);font-style:italic;margin-bottom:6px}
+  .field p{margin:6px 0 0;font-size:14.5px;color:var(--body);line-height:1.7;max-width:660px}
+  .field-tag{font-family:var(--mono);font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);white-space:nowrap}
+  .field-tag.honor{color:#92400e;background:#fff7e6;border:1px solid #fcd9a8;padding:3px 8px;border-radius:3px}
+
+  /* Talks rows */
+  .row-list{border-top:1px solid var(--line)}
+  .row{display:grid;grid-template-columns:130px 1fr auto;gap:28px;padding:18px 0;border-bottom:1px solid var(--line);align-items:baseline}
+  .row-date{font-family:var(--mono);font-size:12.5px;color:var(--purple);letter-spacing:.05em;font-weight:500}
+  .row-title{font-size:16px;color:var(--ink);margin:0 0 4px;font-weight:500}
+  .row-meta{font-size:13.5px;color:var(--muted);font-style:italic}
+  .row-tag{font-family:var(--mono);font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+
+  /* CV */
+  .cv-grid{display:grid;grid-template-columns:1fr;gap:28px}
+  .cv-block h3{font-weight:600;font-size:13px;text-transform:uppercase;letter-spacing:.12em;color:var(--purple);margin:0 0 10px;padding-bottom:8px;border-bottom:2px solid var(--purple-line)}
+  .cv-row{display:grid;grid-template-columns:130px 1fr;gap:24px;padding:12px 0;border-bottom:1px solid var(--line)}
+  .cv-row .when{font-family:var(--mono);font-size:12.5px;color:var(--purple)}
+  .cv-row .what{color:var(--ink-2);font-size:15px;line-height:1.7}
+  .cv-row .what strong{color:var(--ink);font-weight:600}
+  .cv-row .what .sub{color:var(--muted);font-size:13.5px;display:block;margin-top:2px}
+
+  footer{border-top:1px solid var(--line);margin-top:80px;padding:40px 0 20px;font-size:13px;color:var(--muted);display:flex;justify-content:space-between;flex-wrap:wrap;gap:16px}
+  footer a{color:var(--muted)}
+  footer a:hover{color:var(--purple)}
+
+  @media (max-width:960px){
+    .layout{grid-template-columns:1fr;gap:28px;padding:24px 24px 60px}
+    aside{position:static}
+    .topbar-inner{padding:8px 20px;min-height:42px}
+    .topbar-nav{width:100%;justify-content:flex-end;gap:14px;font-size:12.5px}
+    .streams{grid-template-columns:1fr}
+    .pub,.field,.row{grid-template-columns:1fr}
+    .pub-cite,.field-tag,.row-tag{display:none}
+    .topbar-nav .hide-sm{display:none}
+    .main-name{font-size:30px}
+  }
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <div class="topbar-inner">
+    <div class="topbar-nav">
+      <a href="#" class="hide-sm">Curriculum Vitae ↗</a>
+      <a href="cn.html" class="lang-switch">中文</a>
+    </div>
+  </div>
+</div>
+
+<div class="layout">
+
+  <aside>
+    <div class="portrait">
+      <img src="assets/portrait.jpg" alt="Kaijuan Li portrait">
+    </div>
+
+    <h1 class="rail-name">Kaijuan Li<span class="zh">李凯娟</span></h1>
+    <div class="rail-title">
+      <span class="role">Incoming PhD Student</span> · 2026 cohort<br>
+      Political Science
+    </div>
+    <div class="rail-affiliation">
+      School of International Relations<br>
+      &amp; Public Affairs (SIRPA)<br>
+      Fudan University, Shanghai
+    </div>
+
+    <div class="rail-cta">
+      <a href="#" class="btn btn-primary">CV ↓</a>
+      <a href="mailto:culaccino1112@gmail.com" class="btn btn-ghost">Email</a>
+    </div>
+
+    <div class="rail-block">
+      <h4>Contact</h4>
+      <ul class="rail-list">
+        <li><span class="k">Email</span><span class="v">culaccino1112<br>@gmail.com</span></li>
+        <li><span class="k">Fudan</span><span class="v">23210170012<br>@m.fudan.edu.cn</span></li>
+        <li><span class="k">Phone</span><span class="v">+86 186 2108 7027</span></li>
+        <li><span class="k">City</span><span class="v">Shanghai, China</span></li>
+      </ul>
+    </div>
+
+    <div class="rail-block">
+      <h4>Profiles</h4>
+      <ul class="rail-list">
+        <li><span class="k">GitHub</span><span class="v"><a href="https://github.com/culaccino-li" target="_blank" rel="noopener">@culaccino-li</a></span></li>
+        <li><span class="k">Scholar</span><span class="v"><a href="#">Google Scholar</a></span></li>
+        <li><span class="k">ORCID</span><span class="v"><a href="#">Pending</a></span></li>
+      </ul>
+    </div>
+
+    <div class="rail-block">
+      <h4>Research Interests</h4>
+      <div class="rail-tags">
+        <span class="pill">Political behavior of tech firms</span>
+        <span class="pill">Central SOEs &amp; state governance</span>
+        <span class="pill">Globalization &amp; automation shocks</span>
+        <span class="pill">Comparative political economy</span>
+        <span class="pill">Computational text analysis</span>
+        <span class="pill">US–China relations</span>
+      </div>
+    </div>
+
+    <div class="rail-block" style="border-bottom:1px solid var(--line)">
+      <h4>Languages</h4>
+      <ul class="rail-list">
+        <li><span class="k">中文</span><span class="v">Native</span></li>
+        <li><span class="k">English</span><span class="v">Academic working</span></li>
+      </ul>
+    </div>
+  </aside>
+
+  <main>
+    <h2 class="main-name">Kaijuan Li<span class="zh">李凯娟</span></h2>
+    <p class="main-tag">
+      I study how <em>globalization and technological change</em> reshape contemporary political behavior — with a focus on the political participation of technology firms and the institutional role of Chinese central state-owned enterprises.
+    </p>
+    <span class="main-position"><span class="dot"></span> Incoming PhD, Political Science · Fudan University · 2026 cohort</span>
+
+    <div class="tabs" role="tablist">
+      <button class="tab active" data-tab="bio">Biography</button>
+      <button class="tab" data-tab="research">Research<span class="count">3</span></button>
+      <button class="tab" data-tab="pubs">Publications<span class="count">4</span></button>
+      <button class="tab" data-tab="field">Fieldwork<span class="count">5</span></button>
+      <button class="tab" data-tab="talks">Talks</button>
+      <button class="tab" data-tab="cv">CV</button>
+    </div>
+
+    <!-- BIO -->
+    <section class="panel active" id="bio">
+      <h2>About</h2>
+      <p class="lede">A political scientist trained between SJTU and Fudan, working at the intersection of comparative political economy, technology politics, and computational social science.</p>
+      <div class="prose">
+        <p>I am completing my MA in Political Science at <strong>Fudan University, School of International Relations and Public Affairs (SIRPA)</strong>, and will continue at Fudan as a <strong>PhD student in Political Science (2026 cohort)</strong>. I hold a BA in Administrative Management from <strong>Shanghai Jiao Tong University</strong> (School of International &amp; Public Affairs, 2019–2023), where my training in political theory, public policy, and quantitative methods laid the foundation for my current research.</p>
+        <p>My work asks how <strong>globalization and technological change reshape political behavior</strong> — at the level of voters, firms, and the state itself. I study these forces through original data work and computational text analysis, with a current emphasis on the political participation of US technology firms and the political reconfiguration of Chinese central state-owned enterprises (SOEs) in local governance.</p>
+        <p>I have presented at the <strong>28th IPSA World Congress (Seoul, 2025)</strong>, the <strong>POMS International Conference (2022)</strong>, and the <strong>Fudan "AI &amp; Political Science" International Conference (2025)</strong>. My master's thesis on US tech firms' political participation received the third prize at the <strong>SJTU Doctoral Forum (2025)</strong>.</p>
+      </div>
+    </section>
+
+    <!-- RESEARCH -->
+    <section class="panel" id="research">
+      <h2>Research Agenda</h2>
+      <p class="lede">Three lines of inquiry, organized around how political behavior responds to globalization, technology, and state governance.</p>
+
+      <div class="streams">
+        <div class="stream-card">
+          <div class="stream-num">Stream I.</div>
+          <h3>The <em>political participation</em> of technology firms.</h3>
+          <p>How do US technology firms allocate political effort — through lobbying, campaign contributions, regulatory engagement, and elite ties — across three decades of expansion, regulation, and decoupling? My master's thesis builds a "four-quadrant" framework of corporate political postures based on 1990–2024 data, and I extend this work toward computational text analysis of trade-remedy and lobbying disclosures.</p>
+          <div class="stream-tags">
+            <span class="tag">Corporate political activity</span>
+            <span class="tag">Lobbying &amp; donations</span>
+            <span class="tag">US–China decoupling</span>
+            <span class="tag">Tech regulation</span>
+          </div>
+        </div>
+
+        <div class="stream-card">
+          <div class="stream-num">Stream II.</div>
+          <h3>Globalization, automation, and the <em>radical right</em>.</h3>
+          <p>My working paper <em>Globalization Meets Automation</em> uses cross-national election surveys, China-shock trade exposure, and automation exposure measures to model how the dual shocks of trade and technology reshape support for radical-right parties across European regions. The work was accepted for an oral presentation at the 28th IPSA World Congress in Seoul (2025).</p>
+          <div class="stream-tags">
+            <span class="tag">International political economy</span>
+            <span class="tag">China shock</span>
+            <span class="tag">Automation exposure</span>
+            <span class="tag">Radical right</span>
+          </div>
+        </div>
+
+        <div class="stream-card full">
+          <div class="stream-num">Stream III.</div>
+          <h3>Central SOEs and the <em>institutional architecture</em> of Chinese governance.</h3>
+          <p>This emerging line — and a core direction for my doctoral training — asks how China's central state-owned enterprises are being institutionally re-positioned within the national governance system. As local governments face fiscal tightening, debt constraints, and politically rigid mandates, central SOEs increasingly serve as resource-mobilizing partners in delivering "stable growth" and "stable employment." I read this not merely as economic cooperation but as a structural reconfiguration of central–local relations and state capacity. The project will combine document analysis, original case studies, and quantitative tracking of SOE involvement in local fiscal and policy delivery.</p>
+          <div class="stream-tags">
+            <span class="tag">Central SOEs</span>
+            <span class="tag">Local governance</span>
+            <span class="tag">Central–local relations</span>
+            <span class="tag">State capacity</span>
+            <span class="tag">Mixed-ownership reform</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PUBLICATIONS -->
+    <section class="panel" id="pubs">
+      <h2>Publications &amp; Working Papers</h2>
+      <p class="lede">Working papers, conference papers, and published work.</p>
+
+      <div class="pub-controls">
+        <div class="filter-group" id="pubFilters">
+          <button class="filter active" data-f="all">All</button>
+          <button class="filter" data-f="wp">Working paper</button>
+          <button class="filter" data-f="ra">RA project</button>
+          <button class="filter" data-f="award">Award paper</button>
+          <button class="filter" data-f="pub">Published</button>
+        </div>
+        <span class="pub-count" id="pubCount">4 items</span>
+      </div>
+
+      <article class="pub" data-cat="wp">
+        <div class="pub-year">2025</div>
+        <div class="pub-body">
+          <div class="pub-status">Working paper · IPSA 2025</div>
+          <h3 class="pub-title">Globalization Meets Automation: How Trade and Technological Shocks Reshape Radical Right Support in Europe</h3>
+          <p class="pub-authors"><span class="me">Li, Kaijuan</span> (sole author)</p>
+          <p class="pub-venue">Accepted for oral presentation, 28th IPSA World Congress, Seoul</p>
+          <div class="pub-actions">
+            <button data-toggle="abs-1">Abstract</button>
+            <button class="disabled">Draft</button>
+            <a href="#">BibTeX</a>
+          </div>
+          <div class="abstract" id="abs-1">
+            <p>This paper combines cross-national election surveys with regional measures of China-shock trade exposure and automation exposure to estimate the joint impact of trade and technological shocks on radical-right support across European regions. Using a region-by-individual modeling strategy, I show that the political effects of globalization and automation are neither independent nor additive: they interact with local labor-market structure to reshape who turns toward the radical right and along which dimensions of grievance. The paper contributes a unified empirical framework for thinking about how the twin shocks of the past two decades have rewritten Europe's political map.</p>
+          </div>
+        </div>
+        <div class="pub-cite">
+          <span class="num">—</span>
+          IPSA 28
+        </div>
+      </article>
+
+      <article class="pub" data-cat="ra">
+        <div class="pub-year">2025</div>
+        <div class="pub-body">
+          <div class="pub-status">RA project · in progress</div>
+          <h3 class="pub-title">Beyond Tariffs: US Trade Remedies in Text Data</h3>
+          <p class="pub-authors">Stone, Randall (Rochester); Wang, Yu (Fudan); <span class="me">Li, Kaijuan</span> (RA)</p>
+          <p class="pub-venue">Presented at Fudan "AI &amp; Political Science" International Conference, 2025</p>
+          <div class="pub-actions">
+            <button data-toggle="abs-2">Abstract</button>
+            <a href="https://github.com/culaccino-li" target="_blank" rel="noopener">Code</a>
+          </div>
+          <div class="abstract" id="abs-2">
+            <p>This project uses Python and large language models to structure, classify, and analyze approximately 600,000 textual records from US trade-remedy investigations. As research assistant, I designed and implemented the data-cleaning pipeline, performed topic identification, and built a structured feature database of US trade-policy text. Preliminary results were presented at Fudan's "AI &amp; Political Science" International Conference in 2025; co-authored manuscript in preparation.</p>
+          </div>
+        </div>
+        <div class="pub-cite">
+          <span class="num">~600k</span>
+          text records
+        </div>
+      </article>
+
+      <article class="pub" data-cat="award">
+        <div class="pub-year">2025</div>
+        <div class="pub-body">
+          <div class="pub-status award">SJTU Doctoral Forum · Third Prize</div>
+          <h3 class="pub-title">Voice and Influence: The Political Participation of US Technology Firms, 1990–2024</h3>
+          <p class="pub-authors"><span class="me">Li, Kaijuan</span> (sole author, MA thesis)</p>
+          <p class="pub-venue">Master's thesis · SJTU 2025 Doctoral Forum, Outstanding Paper (3rd prize)</p>
+          <div class="pub-actions">
+            <button data-toggle="abs-3">Abstract</button>
+            <button class="disabled">Thesis (PDF)</button>
+          </div>
+          <div class="abstract" id="abs-3">
+            <p>This thesis assembles a long-run record of US technology firms' political participation from 1990 to 2024, integrating lobbying, campaign donations, regulatory comment, and elite networks. I propose a "four-quadrant" theoretical framework that classifies firms' political postures along two axes — orientation toward the regulatory state and orientation toward partisan politics — and trace how individual firms migrate across quadrants in response to expansion, antitrust, and decoupling pressures. The framework offers a portable lens for comparing corporate political postures across sectors and political regimes.</p>
+          </div>
+        </div>
+        <div class="pub-cite">
+          <span class="num">3rd</span>
+          prize
+        </div>
+      </article>
+
+      <article class="pub" data-cat="pub">
+        <div class="pub-year">2024</div>
+        <div class="pub-body">
+          <div class="pub-status pub">Published</div>
+          <h3 class="pub-title">Optimal Quality Inspections in Farm-to-Consumer Direct Selling: A Game-Based Approach</h3>
+          <p class="pub-authors">[Coauthor]; <span class="me">Li, Kaijuan</span> (second author)</p>
+          <p class="pub-venue">Journal of Agricultural Science and Technology, 2024 · presented at POMS 2022 (international)</p>
+          <div class="pub-actions">
+            <button data-toggle="abs-4">Abstract</button>
+            <a href="#">DOI</a>
+            <a href="#">BibTeX</a>
+          </div>
+          <div class="abstract" id="abs-4">
+            <p>We construct a game-theoretic model of quality inspection regimes in farm-to-consumer direct-selling channels, deriving conditions under which decentralized versus centralized inspection produces socially optimal quality outcomes. The paper grew out of a Shanghai Philosophy and Social Science general project and was first presented at the POMS 2022 International Conference.</p>
+          </div>
+        </div>
+        <div class="pub-cite">
+          <span class="num">JAST</span>
+          2024
+        </div>
+      </article>
+
+    </section>
+
+    <!-- FIELDWORK -->
+    <section class="panel" id="field">
+      <h2>Fieldwork &amp; Practice</h2>
+      <p class="lede">Five projects across four years — local governance, tech-policy, trade resilience, and social policy.</p>
+
+      <div class="field">
+        <div class="field-date">2025 · Jul–Aug</div>
+        <div>
+          <h3 class="field-title">How Local Governments Serve Technology Firms — the "Modu Space" Case</h3>
+          <div class="field-meta">Project Lead · Fudan University Graduate Social Practice Programme</div>
+          <p>Following the General Secretary's inspection of Shanghai's "Modu Space" AI hub, I led a graduate research team studying how local governments construct a "space + ecosystem + service" model of techno-governance. Designed the interview protocol, conducted on-site research, and authored the final report.</p>
+        </div>
+        <div class="field-tag honor">Outstanding · Univ.</div>
+      </div>
+
+      <div class="field">
+        <div class="field-date">2025 · Jun–Aug</div>
+        <div>
+          <h3 class="field-title">Volunteer Service Office, Pudong New Area Social Work Department, CPC</h3>
+          <div class="field-meta">Policy intern</div>
+          <p>Drafted policy materials, conducted institutional visits, and wrote analytic reports on volunteer-service systems at organizations including the Pudong Art Museum.</p>
+        </div>
+        <div class="field-tag">Internship</div>
+      </div>
+
+      <div class="field">
+        <div class="field-date">2024 · Jun–Aug</div>
+        <div>
+          <h3 class="field-title">Modernizing Local Governance — Ning'er County, Yunnan</h3>
+          <div class="field-meta">Team Leader · field research</div>
+          <p>Led a team conducting field research in Ning'er County: collected 100+ surveys and interview transcripts, authored a 30,000-character case report, and submitted policy recommendations to local government.</p>
+        </div>
+        <div class="field-tag">Field study</div>
+      </div>
+
+      <div class="field">
+        <div class="field-date">2024 · Apr–Nov</div>
+        <div>
+          <h3 class="field-title">Yiwu Small-Commodity Exporters and Policy Response</h3>
+          <div class="field-meta">Team member · trade-resilience study</div>
+          <p>Studied resilience strategies of foreign-trade firms in Yiwu under US–China competitive pressure; produced policy recommendations submitted to the local government.</p>
+        </div>
+        <div class="field-tag">Trade policy</div>
+      </div>
+
+      <div class="field">
+        <div class="field-date">2019–2021</div>
+        <div>
+          <h3 class="field-title">Shanghai Minimum-Living-Allowance (Dibao) Field Study</h3>
+          <div class="field-meta">Interviewer · longitudinal</div>
+          <p>Conducted home visits with low-income families across three consecutive years; completed 70+ in-depth interviews and contributed to ancillary policy-revision work.</p>
+        </div>
+        <div class="field-tag">Social policy</div>
+      </div>
+    </section>
+
+    <!-- TALKS -->
+    <section class="panel" id="talks">
+      <h2>Talks</h2>
+      <p class="lede">Selected conference and invited presentations.</p>
+      <div class="row-list">
+        <div class="row">
+          <div class="row-date">2025</div>
+          <div>
+            <h4 class="row-title">Globalization Meets Automation: Trade and Technological Shocks in Europe</h4>
+            <div class="row-meta">28th IPSA World Congress · Seoul, Korea</div>
+          </div>
+          <div class="row-tag">International</div>
+        </div>
+        <div class="row">
+          <div class="row-date">2025</div>
+          <div>
+            <h4 class="row-title">Voice and Influence: US Technology Firms' Political Participation, 1990–2024</h4>
+            <div class="row-meta">Shanghai Jiao Tong University Doctoral Forum · 3rd Prize</div>
+          </div>
+          <div class="row-tag">Award</div>
+        </div>
+        <div class="row">
+          <div class="row-date">2025</div>
+          <div>
+            <h4 class="row-title">Beyond Tariffs: US Trade Remedies in Text Data</h4>
+            <div class="row-meta">Fudan "AI &amp; Political Science" International Conference · Shanghai</div>
+          </div>
+          <div class="row-tag">Conference</div>
+        </div>
+        <div class="row">
+          <div class="row-date">2022</div>
+          <div>
+            <h4 class="row-title">Optimal Quality Inspections in Farm-to-Consumer Direct Selling</h4>
+            <div class="row-meta">POMS International Conference</div>
+          </div>
+          <div class="row-tag">International</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CV -->
+    <section class="panel" id="cv">
+      <h2>Curriculum Vitae</h2>
+      <p class="lede">A condensed summary. <a href="#">Download the full PDF →</a></p>
+
+      <div class="cv-grid">
+        <div class="cv-block">
+          <h3>Education</h3>
+          <div class="cv-row">
+            <div class="when">2026 —</div>
+            <div class="what"><strong>PhD, Political Science</strong> · Fudan University<span class="sub">School of International Relations &amp; Public Affairs (SIRPA)</span></div>
+          </div>
+          <div class="cv-row">
+            <div class="when">2023 — 2026</div>
+            <div class="what"><strong>MA, Political Science</strong> · Fudan University, SIRPA<span class="sub">Coursework: political theory, social science research methods, comparative politics, Chinese politics, international development</span></div>
+          </div>
+          <div class="cv-row">
+            <div class="when">2019 — 2023</div>
+            <div class="what"><strong>BA, Administrative Management</strong> · Shanghai Jiao Tong University<span class="sub">School of International &amp; Public Affairs · Coursework included political science, statistics, big-data analysis, micro/macroeconomics</span></div>
+          </div>
+        </div>
+
+        <div class="cv-block">
+          <h3>Honors &amp; Recognition</h3>
+          <div class="cv-row">
+            <div class="when">2025</div>
+            <div class="what">SJTU Doctoral Forum · Outstanding Paper (3rd prize)<span class="sub">For "Voice and Influence: US Technology Firms' Political Participation, 1990–2024"</span></div>
+          </div>
+          <div class="cv-row">
+            <div class="when">2025</div>
+            <div class="what">Fudan University Graduate Social Practice · Outstanding Project<span class="sub">"How Local Governments Serve Technology Firms — Modu Space"</span></div>
+          </div>
+          <div class="cv-row">
+            <div class="when">2025</div>
+            <div class="what">Accepted oral presentation, 28th IPSA World Congress (Seoul)</div>
+          </div>
+        </div>
+
+        <div class="cv-block">
+          <h3>Methods &amp; Skills</h3>
+          <div class="cv-row">
+            <div class="when">Designs</div>
+            <div class="what">Region–individual multilevel models · trade- &amp; automation-exposure measures · panel methods</div>
+          </div>
+          <div class="cv-row">
+            <div class="when">Text</div>
+            <div class="what">LLM-based classification of policy text (~600k records) · entity resolution · structured feature extraction</div>
+          </div>
+          <div class="cv-row">
+            <div class="when">Tooling</div>
+            <div class="what">Python · R · Stata · SQL · Git · LaTeX</div>
+          </div>
+          <div class="cv-row">
+            <div class="when">Languages</div>
+            <div class="what">Mandarin (native) · English (academic working)</div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <footer>
+      <span>© 2026 Kaijuan Li · 李凯娟. Last updated May 2026 · v5.0</span>
+      <span><a href="cn.html">中文版主页 →</a></span>
+    </footer>
+
+  </main>
+</div>
+
+<script>
+  const tabs=document.querySelectorAll('.tab');
+  const panels=document.querySelectorAll('.panel');
+  tabs.forEach(t=>t.addEventListener('click',()=>{
+    tabs.forEach(x=>x.classList.remove('active'));
+    t.classList.add('active');
+    const id=t.getAttribute('data-tab');
+    panels.forEach(p=>p.classList.toggle('active',p.id===id));
+    history.replaceState(null,'','#'+id);
+    window.scrollTo({top:document.querySelector('.tabs').offsetTop-80,behavior:'smooth'});
+  }));
+  if(location.hash){const t=document.querySelector('.tab[data-tab="'+location.hash.slice(1)+'"]');if(t)t.click();}
+
+  document.querySelectorAll('button[data-toggle]').forEach(btn=>btn.addEventListener('click',()=>{
+    const target=document.getElementById(btn.getAttribute('data-toggle'));
+    if(!target)return;
+    const open=target.classList.toggle('open');
+    btn.textContent=open?'Hide abstract':'Abstract';
+  }));
+
+  const filters=document.querySelectorAll('#pubFilters .filter');
+  const pubs=document.querySelectorAll('.pub');
+  const countLabel=document.getElementById('pubCount');
+  filters.forEach(f=>f.addEventListener('click',()=>{
+    filters.forEach(x=>x.classList.remove('active'));
+    f.classList.add('active');
+    const cat=f.getAttribute('data-f');
+    let n=0;
+    pubs.forEach(p=>{const show=cat==='all'||p.getAttribute('data-cat')===cat;p.style.display=show?'':'none';if(show)n++;});
+    countLabel.textContent=n+' item'+(n===1?'':'s');
+  }));
+</script>
+
+</body>
+</html>
