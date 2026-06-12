@@ -98,8 +98,8 @@ git push origin main
 
 推送后等待几十秒到几分钟，然后检查：
 
-- 英文首页：https://culaccino-li.github.io/me/
-- 中文页面：https://culaccino-li.github.io/me/cn.html
+- 英文首页：https://kaijuanli.cn
+- 中文页面：https://kaijuanli.cn/cn.html
 
 需要确认：
 

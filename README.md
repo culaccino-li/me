@@ -4,8 +4,8 @@ This repository hosts my personal academic homepage.
 
 It is a small digital corner for my research, writing, fieldwork, and academic life. If you are here from GitHub, welcome. If you are looking for the actual website, the door is right here:
 
-🌐 **Homepage:** https://culaccino-li.github.io/me/  
-中文页面: https://culaccino-li.github.io/me/cn.html
+🌐 **Homepage:** https://kaijuanli.cn  
+中文页面: https://kaijuanli.cn/cn.html
 
 ## About Me
 
@@ -28,7 +28,7 @@ In less formal words: I am interested in how large structural forces such as tec
 
 The site is published with GitHub Pages:
 
-👉 https://culaccino-li.github.io/me/
+👉 https://kaijuanli.cn
 
 If the page does not refresh immediately after an update, give GitHub Pages a minute or two. It is usually just taking a small stretch.
 
